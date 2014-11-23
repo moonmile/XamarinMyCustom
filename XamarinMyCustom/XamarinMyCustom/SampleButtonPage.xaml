@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cc="clr-namespace:XamarinMyCustom.Views;assembly=XamarinMyCustom"
+					   x:Class="XamarinMyCustom.SampleButtonPage"
+             Title="Sample Custom Button">
+  <StackLayout>
+    <Label Text="カスタムボタン" />
+    <cc:CustomButton />
+    <Label Text="カスタムグリッド" />
+    <cc:CustomGrid />
+    <Label Text="カスタムグリッド２" />
+    <cc:CustomGrid2 />
+  </StackLayout>
+</ContentPage>

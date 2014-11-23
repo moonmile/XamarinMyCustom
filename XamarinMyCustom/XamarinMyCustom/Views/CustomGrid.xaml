@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XamarinMyCustom.Views.CustomGrid">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="40"/>
+      <RowDefinition Height="40"/>
+      <RowDefinition Height="40"/>
+      <RowDefinition Height="40"/>
+      <RowDefinition Height="40"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="40"/>
+      <ColumnDefinition Width="40"/>
+      <ColumnDefinition Width="40"/>
+      <ColumnDefinition Width="40"/>
+      <ColumnDefinition Width="40"/>
+    </Grid.ColumnDefinitions>
+    <Image x:Name="img1" Grid.Row="0" Grid.Column="0" />
+    <Image x:Name="img2" Grid.Row="0" Grid.Column="1" />
+    <Image x:Name="img3" Grid.Row="0" Grid.Column="2" />
+    <Image x:Name="img4" Grid.Row="0" Grid.Column="3" />
+    <Image x:Name="img5" Grid.Row="0" Grid.Column="4" />
+    <Image x:Name="img6" Grid.Row="1" Grid.Column="0" />
+    <Image x:Name="img7" Grid.Row="1" Grid.Column="1" />
+    <Image x:Name="img8" Grid.Row="1" Grid.Column="2" />
+    <Image x:Name="img9" Grid.Row="1" Grid.Column="3" />
+    <Image x:Name="img10" Grid.Row="1" Grid.Column="4" />
+    <Image x:Name="img11" Grid.Row="2" Grid.Column="0" />
+    <Image x:Name="img12" Grid.Row="2" Grid.Column="1" />
+    <Image x:Name="img13" Grid.Row="2" Grid.Column="2" />
+    <Image x:Name="img14" Grid.Row="2" Grid.Column="3" />
+    <Image x:Name="img15" Grid.Row="2" Grid.Column="4" />
+    <Image x:Name="img16" Grid.Row="3" Grid.Column="0" />
+    <Image x:Name="img17" Grid.Row="3" Grid.Column="1" />
+    <Image x:Name="img18" Grid.Row="3" Grid.Column="2" />
+    <Image x:Name="img19" Grid.Row="3" Grid.Column="3" />
+    <Image x:Name="img20" Grid.Row="3" Grid.Column="4" />
+    <Image x:Name="img21" Grid.Row="4" Grid.Column="0" />
+    <Image x:Name="img22" Grid.Row="4" Grid.Column="1" />
+    <Image x:Name="img23" Grid.Row="4" Grid.Column="2" />
+    <Image x:Name="img24" Grid.Row="4" Grid.Column="3" />
+    <Image x:Name="img25" Grid.Row="4" Grid.Column="4" />
+</Grid>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XamarinMyCustom.SampleMyRenderer"
+             xmlns:cc="clr-namespace:XamarinMyCustom.Views;assembly=XamarinMyCustom"
+             Title="Custom Renderer"
+             >
+  <StackLayout>
+    <Label Text="カスタムレンダリング" />
+    <cc:MyEntry x:Name="myentry" Text="Sample" />
+    <Label Text="タップ付きラベル" />
+    <cc:MyLabel x:Name="label1" Text="tap me!" />
+  </StackLayout>
+</ContentPage>
